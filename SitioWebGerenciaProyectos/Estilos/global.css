@@ -11,6 +11,14 @@
 	background-color: #0F375A;
 }
 
+#definicionTemaCentral{
+	width: 90%;
+	margin: auto;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #f1f1f1;
+	text-align: justify;
+}
+
 body{
   background-repeat: no-repeat;
 	background-size: cover;
@@ -50,11 +58,29 @@ header{
 
 h2{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	color:#f1f1f1;
+	color:#F0B429;
 	font-size: 22px;
 	text-align: center;
+	padding-top: 3%;
 }
 
+#objetivosSlider{
+	width: 90%;
+	margin: auto;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #f1f1f1;
+	text-align: justify;
+	background-color: #50B748;
+}
+
+#principiosSlider{
+	width: 90%;
+	margin: auto;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #f1f1f1;
+	text-align: justify;
+	background-color:#A54686;
+}
 
 label{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
