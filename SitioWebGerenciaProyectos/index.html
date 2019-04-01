@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lang="es">
+	<html lang="es">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>OVI Gerencia de proyectos informáticos</title>
-<body>
-
-    <script type="text/javascript">
-			function redireccionar (URL){ 
-				window.open(URL, target="contenido-iframe") 
-			};
-		 </script>
-		 <div id="franjaLateral">
-	<div id="contenedor">
-		<header>
-				<div class="divImagenLogo"><img class="imgLogo" src="img/logoUnad.png" alt="Universidad Abierta y a Distancia"></div>
+		<title>OVI Gerencia de proyectos informáticos</title>
+		<link REL=StyleSheet href="css/global.css" TYPE="text/css">
+		<link REL=StyleSheet href="css/aside.css" TYPE="text/css">
+	<body>	
+		<div id="contenedor">
+			<header>
+				<div class="divImagenLogo">
+					<img class="imgLogo" src="img/logoUnad.png" alt="Universidad Abierta y a Distancia">
+				</div>
 				<div class="divHeader">
-					<h1>
-							Gerencia de Proyectos Informáticos
-					</h1>		
+					<h1> Gerencia de Proyectos Informáticos</h1>		
 				</div>		
-		</header>
-		<nav>
-			<ul class="menu">
-				<div class="menu-header">
-				<li><a class="menu" onclick="redireccionar('content/autores.html');" target="contenido-iframe">Equipo Unad</a></li>  
-				<li><a class="menu" target="contenido-iframe">Ejemplos</a></li> 
-				<li><a class="menu" target="contenido-iframe">Ciclo de vida</a></li>
-				<li><a class="menu" onclick="redireccionar('content/definicionTema.html');" target="contenido-iframe">Qué es?</a></li>
-				<li><a onclick="redireccionar('content/inicio.html');" class="menu" target="contenido-iframe">Inicio</a></li>
-			</div>   	
-			</ul>
-		</nav>
-	    	<iframe width="1100px" height="550px" src="content/inicio.html" name="contenido-iframe" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-			<footer class="footContacto"></footer>
+			</header>
+			<nav>
+				<ul class="menu">
+					<li><a >Inicio</a></li>
+					<li><a >Lecturas</a></li>	
+					<li><a >Multimedia</a></li>
+					<li>
+						<a >Actividades</a>
+						<ul class="submenu">
+							<li><a href="content/actividades/crucigramas.html">Crucigrama</a></li>
+							<li><a >Test</a></li>
+							<li><a >Completar</a></li>
+						</ul>
+					</li> 
+					<li><a >Autores</a></li>  		
+				</ul>
+			</nav>
+			<section>
+					Aqui va el contenido	
+			</section>
+			<aside>
+				<a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</aside>
+			<footer>Diseño de sitios Web - 301122
+				<section class="visit"> 
+						Contador de visitas
+				</section>
+			</footer>
 		</div>
-	</div>
-	
-</body>
-
-<link REL=StyleSheet href="css/global.css" TYPE="text/css">
+	</body>
 </html>
